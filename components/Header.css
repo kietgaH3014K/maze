@@ -1,0 +1,36 @@
+/* Header.css */
+.header {
+  background-color: #F0EEEB;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;  /* Logo trái - Menu phải */
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  box-shadow: 0 2px 4px #F0EEEB(0, 0, 0, 0.05);
+}
+
+.logo {
+  height: 24px; /* Tùy chỉnh chiều cao logo tại đây */
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #7A5C3D;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #5B422A;
+}
